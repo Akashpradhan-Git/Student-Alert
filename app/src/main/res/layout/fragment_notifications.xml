@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:gravity="center_horizontal"
+        android:text="NOTIFICATION"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Notification 1"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="@android:color/holo_red_light"
+           android:textAlignment="viewStart"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/Tvnotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_________"
+            android:layout_marginTop="80dp"
+            android:textSize="20dp"/>
+
+
+    </FrameLayout>
+</LinearLayout>

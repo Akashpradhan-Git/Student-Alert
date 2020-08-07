@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Bottom_nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="about" translatable="false">New Horizon College of Engineering is an Autonomous college affiliated to Visvesvaraya Technological University(VTU), approved by the All India Council for Technical Education(AICTE) and University Grants Commission(UGC). It is accredited by NAAC with
+        A grade and National Board of Accreditation(NBA). It is an ISO 9001:2008 certified Institution. New Horizon college of Engineering is located in the heart of the IT capital of India,Bangalore.
+        The college campus is situated in the IT corridor of Bangalore surrounded by MNCs and IT giants such as Intel, Accenture, Cape Gemini, ARM,Symphony, Wipro, Nokia, JP Morgan and Cisco to name a few.
+    </string>
+    <string name="about1">
+        NHCE has a scenic and serene campus that provides an environment which is conducive for personal and intellectual growth. The infrastructure acts as a facilitator for the effective delivery of the curriculum. NHCE boasts of state – of - the - art facilities for its students.
+        They are given utmost encouragement in their areas of interest by providing hi-tech facilities backed by faculty support. The institute places highest priority on innovative programs of instructions that include both traditional class room theory and professional skills training.
+        There is a strong impetus on overall personality development of the students with emphasis on soft skills.Students are supported through mentoring and counseling systems. The management offers scholarships to meritorious students. At NHCE, we understand and respect our role as
+        educators and from the moment a student walk into the campus, he/she is well guided to know his/her strengths and choose an area of functional specialization.This enables students to concentrate their efforts and energies to gain the competitive edge. NHCE has an unique distinction of achieving 100% admissions in all its courses year after year.
+    </string>
+
+    <string name="reason">WHY JOIN NHCE ?</string>
+    <string name="reason_1">* Accredited by National Board of Accreditation (NBA)</string>
+    <string name="reason_2">* Accredited by NAAC with A Grade</string>
+
+    <string name="reason_3">* Autonomous institute</string>
+
+    <string name="reason_4">* Awarded "EXCELLENCE IN PROMOTING INDUSTRY  ACADEMIA INTERFACE</string>
+
+    <string name="reason_5">* Awarded "MOST PREFERRED INSTITUTE WITH    GLOBAL EXPOSURE"</string>
+
+    <string name="reason_6">* Ranked No.1 in Karnataka, 6th in South India, and 12th in    india among the "BEST PRIVATE TECH SCHOOLS"</string>
+
+    <string name="reason_7">* Awarded “BEST ENGINEERING COLLEGE IN INDIA     SOUTH”</string>
+
+    <string name="reason_8">* Awarded "BEST INSTITUTION TOWARDS INDUSTRY FOCUS EDUCATION DELIVERY FOR FULL EMPLOYABILITY".</string>
+
+    <string name="reason_9">* Honoured with BEST INTERNATIONAL EDUCATION    COLLABORATION OF THE YEAR</string>
+    <string name="reason_10">* 100% Placements opportunities are provided to B.E, M.Tech, MBA and MCA students</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

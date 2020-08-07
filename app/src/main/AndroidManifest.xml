@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bottom_nav">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".result_activity"></activity>
+        <activity android:name=".Syllbus" />
+        <activity android:name=".Library" />
+
+        <service android:name=".noti.GettingDeviceTokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".noti.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".TimeTable" />
+        <activity android:name=".About" />
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

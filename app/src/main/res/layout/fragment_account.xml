@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/account"
+    tools:context=".ui.account.Account"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="30dp"
+            android:text="NAME :"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/acname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="sans-serif-black"
+            android:text="name"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="30dp"
+            android:text="USN :"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/acusn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="sans-serif-black"
+            android:text="usn"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="30dp"
+            android:text="EMAIL :"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/acemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="270dp"
+            android:fontFamily="sans-serif-black"
+            android:text="email"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/aclogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="LOGOUT"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_light"/>
+</RelativeLayout>
